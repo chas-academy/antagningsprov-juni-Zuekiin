@@ -30,7 +30,7 @@ function uppg10() {
     };
   }
 
-  sortArrays(numbers);
+  return sortArrays(numbers);
 }
 
 module.exports = { uppg10 };
