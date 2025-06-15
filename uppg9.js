@@ -9,10 +9,10 @@ function uppg9() {
 
   function sort(array) {
     for (let num of array) {
-      if (num[i] % 2 === 0) {
-        console.log(num[i], "jämt");
+      if (num % 2 === 0) {
+        console.log(num, "jämt");
       } else {
-        console.log(num[i], "udda");
+        console.log(num, "udda");
       }
     }
   }
